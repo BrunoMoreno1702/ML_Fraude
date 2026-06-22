@@ -1,0 +1,10 @@
+.env
+.venv/
+data/
+*.csv
+*.pkl
+*.joblib
+*.xlsx
+*.json
+*.pickle
+.pytest_cache/
