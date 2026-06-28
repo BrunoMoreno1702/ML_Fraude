@@ -1,10 +1,14 @@
 import json
 import re
+import sys
 from pathlib import Path
 
 import altair as alt
 import pandas as pd
 import streamlit as st
+
+# Adiciona o diretório raiz ao path para importações funcionarem no Streamlit Cloud
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from database.connection import get_connection
 
